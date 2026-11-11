@@ -234,7 +234,8 @@ if (projectHero) {
   // ambil nilai ?id=... dari URL, contoh: project.html?id=fixed-wing-uav
   const params = new URLSearchParams(window.location.search);
   const projectId = params.get("id") || "mlrs";
-  const project = projects[projectId];
+  // hasOwn: supaya id seperti "constructor" atau "__proto__" tidak dianggap project
+  const project = Object.hasOwn(projects, projectId) ? projects[projectId] : null;
 
   const titleEl = projectHero.querySelector(".project-title");
   const descEl = projectHero.querySelector(".project-desc");
