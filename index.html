@@ -1,2 +1,253 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAS Aero Sishan</title>
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
 
+  <!-- ===== NAVBAR ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">
+        <img src="img/logo.png" alt="Logo SAS">
+        <span>SAS AERO SISHAN</span>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="works.html">Business Units</a></li>
+        <li class="nav-menu-contact"><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn-contact">Contact</a>
+
+      <button class="nav-toggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow"><span class="line"></span>Aerospace &amp; Defense Systems Engineering</p>
+      <h1 class="hero-title">SAS AERO<br>SISHAN</h1>
+      <p class="hero-desc reveal">
+        PT. SAS Aero Sishan has experts to support the product development
+        process which is one of the company’s core values. Experts with various
+        educational backgrounds and expertise including. Mechanical Engineering,
+        Electrical Engineering, Engineering Physics, Telecommunication, and
+        Aerodynamics.
+      </p>
+
+      <div class="hero-badge">
+        <div class="stars">★★★★★</div>
+        <p>Weapon System | Armored Vehicle | UAV</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <p class="about-text reveal">
+        <strong>PT. SAS Aero Sishan (SAS)</strong> is a company developing defense
+        systems and technologies. <strong>SAS</strong> combines expertise from
+        founders’ expertise, previous experience, and newly-recruited aerospace
+        experts to tackle challenges in Indonesian aerospace &amp; defense industry.
+        <strong>SAS’s</strong> roots dates back to 2011 when our founders built
+        business and technical foundations in process and manufacturing industry.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat reveal">
+          <span class="stat-number"><span class="counter" data-target="14">0</span>+</span>
+          <span class="stat-label">Years of experience</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-number"><span class="counter" data-target="48">0</span>+</span>
+          <span class="stat-label">Total Projects</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-number"><span class="counter" data-target="20">0</span>+</span>
+          <span class="stat-label">Total Clients</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- logo klien berjalan (marquee) -->
+    <div class="clients">
+      <div class="marquee">
+        <div class="marquee-track">
+          <img src="img/clients/client-1.jpeg" alt="Client">
+          <img src="img/clients/client-2.jpeg" alt="Client">
+          <img src="img/clients/client-3.jpg" alt="Client">
+          <img src="img/clients/client-4.png" alt="Client">
+          <img src="img/clients/client-5.png" alt="Client">
+          <img src="img/clients/client-6.png" alt="Client">
+          <img src="img/clients/client-7.png" alt="Client">
+          <img src="img/clients/client-8.png" alt="Client">
+          <img src="img/clients/client-9.png" alt="Client">
+          <img src="img/clients/client-10.png" alt="Client">
+          <img src="img/clients/client-11.png" alt="Client">
+          <img src="img/clients/client-12.png" alt="Client">
+          <img src="img/clients/client-13.jpeg" alt="Client">
+          <img src="img/clients/client-14.png" alt="Client">
+          <img src="img/clients/client-15.webp" alt="Client">
+          <img src="img/clients/client-16.jpg" alt="Client">
+          <img src="img/clients/client-17.png" alt="Client">
+          <img src="img/clients/client-18.svg" alt="Client">
+          <img src="img/clients/client-19.png" alt="Client">
+        </div>
+      </div>
+      <p class="clients-more">And many more</p>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="services">
+    <div class="container">
+      <p class="eyebrow"><span class="line"></span>Services</p>
+      <ul class="services-list">
+        <li class="reveal"><span class="num">01</span>Services &amp; Maintenance</li>
+        <li class="reveal"><span class="num">02</span>Guidance, Navigation, &amp; Control</li>
+        <li class="reveal"><span class="num">03</span>Electronics &amp; Software</li>
+        <li class="reveal"><span class="num">04</span>Mechanical Design</li>
+        <li class="reveal"><span class="num">05</span>Unmanned Aircraft Systems</li>
+        <li class="reveal"><span class="num">06</span>Manufacturing &amp; Fabrication</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== BUSINESS UNITS ===== -->
+  <section id="business-units" class="units">
+    <div class="container">
+      <p class="eyebrow"><span class="line"></span>Business Units</p>
+      <div class="units-grid">
+        <a href="project.html?id=mlrs" class="unit-card reveal">
+          <div class="unit-img"><img src="img/unit-mlrs.png" alt="Rocket Launcher Vehicle"></div>
+          <div class="unit-info">
+            <h3>Rocket Launcher Vehicle (MLRS)</h3>
+            <span class="unit-link">View project <span class="arrow">→</span></span>
+          </div>
+        </a>
+        <a href="project.html?id=tank-turret" class="unit-card reveal">
+          <div class="unit-img"><img src="img/unit-turret.png" alt="ApexTank Turret"></div>
+          <div class="unit-info">
+            <h3>ApexTank Turret System Development T.III</h3>
+            <span class="unit-link">View project <span class="arrow">→</span></span>
+          </div>
+        </a>
+        <a href="project.html?id=fixed-wing-uav" class="unit-card reveal">
+          <div class="unit-img"><img src="img/unit-fixedwing.png" alt="Fixed-Wing UAV"></div>
+          <div class="unit-info">
+            <h3>Fixed-Wing UAV</h3>
+            <span class="unit-link">View project <span class="arrow">→</span></span>
+          </div>
+        </a>
+        <a href="project.html?id=helicopter-uav" class="unit-card reveal">
+          <div class="unit-img"><img src="img/unit-heli.png" alt="Helicopter UAV"></div>
+          <div class="unit-info">
+            <h3>Helicopter UAV</h3>
+            <span class="unit-link">View project <span class="arrow">→</span></span>
+          </div>
+        </a>
+        <a href="project.html?id=male-uav-fcs" class="unit-card reveal">
+          <div class="unit-img"><img src="img/unit-male.png" alt="MALE-Class UAV"></div>
+          <div class="unit-info">
+            <h3>MALE-Class UAV Flight Control System</h3>
+            <span class="unit-link">View project <span class="arrow">→</span></span>
+          </div>
+        </a>
+        <a href="project.html?id=mobile-gcs" class="unit-card reveal">
+          <div class="unit-img"><img src="img/unit-gcs.png" alt="Mobile GCS"></div>
+          <div class="unit-info">
+            <h3>Mobile Ground Control System (GCS)</h3>
+            <span class="unit-link">View project <span class="arrow">→</span></span>
+          </div>
+        </a>
+      </div>
+
+      <div class="units-more">
+        <a href="works.html" class="btn-load-more">View all business units →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VISION ===== -->
+  <section class="vision">
+    <div class="container vision-inner reveal">
+      <img src="img/logo.png" alt="" class="vision-logo">
+      <p class="eyebrow center">VISION</p>
+      <p class="vision-text">
+        To be a leading, reputable manufacturer and prime contractor of advanced
+        weapons, systems, and platforms program for military and coast guard in
+        South East Asia.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section id="contact" class="cta">
+    <div class="container cta-inner">
+      <div class="cta-text reveal">
+        <h2 class="cta-title">Ready to work together?</h2>
+        <a href="mailto:info@sas-aero.id" class="cta-email">info@sas-aero.id <span class="arrow">↗</span></a>
+      </div>
+      <div class="cta-img reveal">
+        <img src="img/cta.png" alt="UAV in hangar">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <img src="img/logo.png" alt="Logo SAS">
+          <span>SAS AERO SISHAN</span>
+        </a>
+        <p class="footer-text">
+          To develop, manufacture, and supply advanced weapons, systems, and
+          platforms tailor-made for operation characteristics and cost
+          restrictions in Indonesian Army.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-head">Pages</p>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="works.html">Business Units</a>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-head">Office</p>
+        <p class="footer-text">
+          Our office located in
+          <a href="https://maps.app.goo.gl/hZws7hmNrBnEiYZ49" target="_blank" rel="noopener">Bandung</a>
+        </p>
+        <a href="mailto:info@sas-aero.id">info@sas-aero.id</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> PT. SAS Aero Sishan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# file sistem macOS
+.DS_Store
+
+# alat bantu Claude (tidak perlu ikut di website)
+.claude/
+skills-lock.json
